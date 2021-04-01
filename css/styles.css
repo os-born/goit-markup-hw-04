@@ -96,11 +96,11 @@ ul {
 }
 
 .address {
-  margin-top: 20px;
+  margin-top: 19px;
 }
 
 .address-list li:not(:last-child) {
-  margin-bottom: 8px;
+  margin-bottom: 7px;
 }
 
 .logo-footer {
@@ -357,6 +357,7 @@ ul {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
+  border-right-color: #c4c4c4;
   background-image: linear-gradient(
       to right,
       rgba(47, 48, 58, 0.4),
