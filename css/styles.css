@@ -226,19 +226,19 @@ ul {
   background-color: var(--team-background-color);
   border-radius: 4px;
 }
-.icon-detail::before {
+.advantages-item.icon-detail::before {
   background-image: url(../images/antenna1.svg);
 }
 
-.icon-time::before {
+.advantages-item.icon-time::before {
   background-image: url(../images/clock\ 1.svg);
 }
 
-.icon-planining::before {
+.advantages-item.icon-planining::before {
   background-image: url(../images/diagram\ 1.svg);
 }
 
-.icon-technologies::before {
+.advantages-item.icon-technologies::before {
   background-image: url(../images/astronaut\ 1.svg);
 }
 
