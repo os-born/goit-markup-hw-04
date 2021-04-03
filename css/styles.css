@@ -115,17 +115,28 @@ ul {
   color: var(--primary-white-color);
 }
 
-.contacts-header a {
+.contacts-header .contact-link {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #757575;
+  color: var(--primary-text-color);
+  fill: currentColor;
 }
 
-.contacts-header a:hover {
+.icon-contacts-position {
+  display: flex;
+  max-width: 16px;
+  height: 16px;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.contact-link:hover {
   color: var(--accent-color);
+  fill: currentColor;
 }
 
 .site-nav a {
@@ -215,7 +226,7 @@ ul {
   max-width: 270px;
 }
 
-.advantages-item > .icon-position {
+.advantages-item > .icon-advantages-position {
   display: flex;
   max-width: 270px;
   height: 120px;
