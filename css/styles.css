@@ -555,8 +555,6 @@ ul {
   letter-spacing: 0.03em;
   cursor: pointer;
   border: 1px solid transparent;
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
 }
 
@@ -572,6 +570,9 @@ ul {
 .filter-button:focus {
   color: #2196f3;
   cursor: pointer;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 2px;
 }
 
 .filter-buttons-list {
@@ -597,10 +598,6 @@ ul {
   background-color: var(--team-background-color);
 }
 
-.card-picture .portfolio-card {
-  display: block;
-}
-
 .portfolio-list {
   flex-wrap: wrap;
 }
@@ -608,6 +605,11 @@ ul {
 .portfolio-card-item {
   margin-left: 30px;
   margin-bottom: 30px;
+}
+
+.portfolio-card-item:hover {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .portfolio-card-item:nth-child(3n + 1) {
