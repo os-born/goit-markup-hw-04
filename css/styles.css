@@ -122,6 +122,7 @@ ul {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  cursor: pointer;
   color: var(--primary-text-color);
   fill: currentColor;
 }
@@ -140,6 +141,11 @@ ul {
   fill: currentColor;
 }
 
+.contact-link:focus {
+  color: var(--accent-color);
+  fill: currentColor;
+}
+
 .site-nav a {
   font-style: normal;
   font-weight: 500;
@@ -154,16 +160,20 @@ ul {
   color: #2196f3;
 }
 
+.nav-point:focus {
+  color: #2196f3;
+}
+
 .site-nav {
   align-items: center;
   margin-right: auto;
 }
 
 .site-nav-items .link {
+  display: block;
   margin-right: 50px;
   padding-top: 28px;
   padding-bottom: 28px;
-  display: block;
 }
 
 .site-nav-items .link:last-child {
@@ -363,7 +373,7 @@ ul {
 }
 
 .team-item-discription {
-  padding-bottom: 30px;
+  padding-bottom: 14px;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -378,6 +388,35 @@ ul {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
+}
+
+.social-links-list {
+  padding: 0 32px 30px;
+}
+
+.social-link-main {
+  display: flex;
+  width: 44px;
+  height: 44px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  cursor: pointer;
+  color: var(--primary-text-color);
+  background-color: var(--primary-white-color);
+  fill: currentColor;
+}
+
+.social-link-main:hover {
+  color: var(--primary-white-color);
+  background: var(--accent-color);
+  fill: currentColor;
+}
+
+.social-link-main:focus {
+  color: var(--primary-white-color);
+  background: var(--accent-color);
+  fill: currentColor;
 }
 
 .clients-title {
@@ -415,14 +454,14 @@ ul {
 
 .client-link:hover {
   color: var(--accent-color);
-  fill: currentColor;
   border-color: var(--accent-color);
+  fill: currentColor;
 }
 
 .client-link:focus {
   color: var(--accent-color);
-  fill: currentColor;
   border-color: var(--accent-color);
+  fill: currentColor;
 }
 
 .page-footer {
@@ -453,9 +492,8 @@ ul {
   color: var(--accent-color);
 }
 
-.footer-flex {
-  align-items: flex-start;
-  justify-content: flex-start;
+.contacts-footer :focus {
+  color: var(--accent-color);
 }
 
 .social-links {
@@ -488,16 +526,21 @@ ul {
   height: 44px;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
   border-radius: 50%;
-  background: rgba(255, 255, 255, 0.1);
+  color: var(--primary-white-color);
+  fill: currentColor;
+  background-color: rgba(255, 255, 255, 0.1);
 }
 
 .social-link:hover {
   background-color: var(--accent-color);
+  fill: currentColor;
 }
 
 .social-link:focus {
   background-color: var(--accent-color);
+  fill: currentColor;
 }
 
 /* Portfolio-page-css */
