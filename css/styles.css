@@ -402,7 +402,7 @@ ul {
   justify-content: center;
   border-radius: 50%;
   cursor: pointer;
-  color: var(--primary-text-color);
+  color: #afb1b8;
   background-color: var(--primary-white-color);
   fill: currentColor;
 }
@@ -498,10 +498,11 @@ ul {
 
 .social-links {
   margin-left: 70px;
+  align-self: flex-start;
+  padding-top: 12px;
 }
 
 .social-links-title {
-  padding-top: 12px;
   margin-bottom: 20px;
   font-weight: 700;
   font-size: 14px;
@@ -516,7 +517,7 @@ ul {
   align-items: center;
 }
 
-.social-links-list .social-link-item + .social-link-item {
+.social-links-list-footer .social-link-item + .social-link-item {
   margin-left: 10px;
 }
 
